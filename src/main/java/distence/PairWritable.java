@@ -66,10 +66,11 @@ public class PairWritable implements Writable, PairInterface {
 
     /**
      * (a,b)与(b,a)不同，用于HashSet区别不同元素
+     * 目前可能出现哈希冲突
      * @return
      */
     @Override
     public int hashCode() {
-        return (int) ship_1 & (int) ship_2;
+        return (int) ship_1 << 2 & (int) ship_2 << 2;
     }
 }

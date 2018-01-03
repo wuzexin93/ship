@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3845a0a6-cfc0-4201-a005-4ffed44681df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/distence/Follow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/distence/MyMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/distence/MyReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/distence/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/distence/PairWritable.java" afterPath="$PROJECT_DIR$/src/main/java/distence/PairWritable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/distence/ShipLocationWritable.java" afterPath="$PROJECT_DIR$/src/main/java/distence/ShipLocationWritable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/distence/ShipLocationWritableTest1.java" afterPath="$PROJECT_DIR$/src/main/java/distence/ShipLocationWritableTest1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,19 +15,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PairWritable.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PairWritable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/distence/PairWritable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+            <state relative-caret-position="659">
+              <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1335#1336#0" expanded="true" />
                 <element signature="e#1390#1391#0" expanded="true" />
                 <element signature="e#1436#1437#0" expanded="true" />
                 <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Follow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Follow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/distence/Follow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="370">
               <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,8 +114,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/distence/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,13 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/java/distence/interfaces/PairInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/distence/ShipLocationWritableTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/distence/ShipLocationWritable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/distence/PairWritable.java" />
         <option value="$PROJECT_DIR$/src/main/java/distence/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/distence/MyMapper.java" />
         <option value="$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class" />
         <option value="$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/distence/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/distence/Follow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/distence/PairWritable.java" />
       </list>
     </option>
   </component>
@@ -426,12 +419,12 @@
       <workItem from="1513838034522" duration="3049000" />
       <workItem from="1514203301163" duration="6838000" />
       <workItem from="1514278611853" duration="872000" />
-      <workItem from="1514887737639" duration="17337000" />
+      <workItem from="1514887737639" duration="17527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28096000" />
+    <option name="totallyTimeSpent" value="28286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,8 +545,8 @@
             <element signature="e#1390#1391#0" expanded="true" />
             <element signature="e#1436#1437#0" expanded="true" />
             <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -614,8 +607,8 @@
             <element signature="e#1390#1391#0" expanded="true" />
             <element signature="e#1436#1437#0" expanded="true" />
             <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,22 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/distence/PairWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="67" column="33" lean-forward="false" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/distence/ShipLocationWritable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -848,16 +825,6 @@
         <state relative-caret-position="435">
           <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/distence/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/distence/MyReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -913,12 +872,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/distence/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/distence/Follow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="370">
           <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/distence/PairWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="68" column="17" lean-forward="false" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
           </folding>
         </state>
       </provider>
