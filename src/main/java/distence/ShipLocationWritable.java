@@ -11,6 +11,8 @@ import java.io.IOException;
  *
  */
 public class ShipLocationWritable implements Writable, ShipLocationInterface {
+    public static ShipLocationWritable NULL_SHIP = new ShipLocationWritable(-1, 0, 0);
+
     private long ship_id;
     private double longtitude;
     private double latitude;
@@ -45,7 +47,7 @@ public class ShipLocationWritable implements Writable, ShipLocationInterface {
         return latitude;
     }
 
-    public long getShip_id() {
+    public long getShipId() {
         return ship_id;
     }
 
@@ -62,5 +64,17 @@ public class ShipLocationWritable implements Writable, ShipLocationInterface {
 
     public Double getDistenceWith(ShipLocationWritable shipLocation) {
         return LocationUtils.getDistance(latitude, longtitude, shipLocation.latitude, shipLocation.longtitude);
+    }
+
+    /**
+     * 对同一ship的两个ShipLocationWritable对象的经纬度进行加和
+     *
+     */
+
+    public ShipLocationWritable locationSum(ShipLocationWritable writable) {
+        if (this.ship_id != writable.ship_id & this.ship_id != -1)
+            return NULL_SHIP;
+        else
+            return new ShipLocationWritable(writable.getShipId(), this.longtitude + writable.longtitude, this.latitude + writable.latitude);
     }
 }

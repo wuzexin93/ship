@@ -31,7 +31,6 @@ public class ShipLocationWritableTest1 implements Writable, ShipLocationInterfac
         out.writeBytes(ship_id + "," + longtitude + "," + latitude);
     }
 
-    @Override
     public Double getDistenceWith(ShipLocationInterface shipLocation) {
         return null;
     }
