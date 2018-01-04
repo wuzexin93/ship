@@ -1,7 +1,7 @@
 package distence;
 
 public class LocationUtils {
-    private static double EARTH_RADIUS = 6378.137;
+    private static double EARTH_RADIUS = 6372;//给地球半径统一确定为6372，方便数值的计算
 
     private static double rad(double d) {
         return d * Math.PI / 180.0;
@@ -26,7 +26,7 @@ public class LocationUtils {
                 * Math.pow(Math.sin(b / 2), 2)));
         s = s * EARTH_RADIUS;
         s = Math.round(s * 10000d) / 10000d;
-        s = s*1000;
+        s = s / 1.852;//将得到的距离（单位为：千米）换算为海里
         return s;
     }
 }
