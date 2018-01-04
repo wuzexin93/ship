@@ -23,7 +23,8 @@ public class MyMapper extends Mapper<LongWritable, Text, LongWritable, ShipLocat
                 .map(x -> Double.parseDouble(new BigDecimal(x).toPlainString()))
                 .collect(Collectors.toList());
 
-        Long time = Math.round(data.get(0)) / TIME_UNIT;
+        Long time = Math.round(data.get(0)) / TIME_UNIT;//map对每一行的数据进行处理，从1970开始给现在的时间点标记一个time（长整数）
+        //会有很多时间点分在相同的time中
 
         context.write(new LongWritable(time), new ShipLocationWritable(Math.round(data.get(3)), data.get(5), data.get(4)));
     }
